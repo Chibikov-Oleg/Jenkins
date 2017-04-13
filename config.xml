@@ -5,7 +5,39 @@
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
-  <authorizationStrategy class="hudson.security.AuthorizationStrategy$Unsecured"/>
+  <authorizationStrategy class="hudson.security.ProjectMatrixAuthorizationStrategy">
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:Scar</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:Scar</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:Scar</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:Scar</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:Scar</permission>
+    <permission>hudson.model.Computer.Build:Scar</permission>
+    <permission>hudson.model.Computer.Configure:Scar</permission>
+    <permission>hudson.model.Computer.Connect:Scar</permission>
+    <permission>hudson.model.Computer.Create:Scar</permission>
+    <permission>hudson.model.Computer.Delete:Scar</permission>
+    <permission>hudson.model.Computer.Disconnect:Scar</permission>
+    <permission>hudson.model.Computer.Provision:Scar</permission>
+    <permission>hudson.model.Hudson.Administer:Scar</permission>
+    <permission>hudson.model.Hudson.Administer:anonymous</permission>
+    <permission>hudson.model.Hudson.Read:Scar</permission>
+    <permission>hudson.model.Hudson.Read:anonymous</permission>
+    <permission>hudson.model.Item.Build:Scar</permission>
+    <permission>hudson.model.Item.Cancel:Scar</permission>
+    <permission>hudson.model.Item.Configure:Scar</permission>
+    <permission>hudson.model.Item.Create:Scar</permission>
+    <permission>hudson.model.Item.Delete:Scar</permission>
+    <permission>hudson.model.Item.Discover:Scar</permission>
+    <permission>hudson.model.Item.Read:Scar</permission>
+    <permission>hudson.model.Item.Workspace:Scar</permission>
+    <permission>hudson.model.Run.Delete:Scar</permission>
+    <permission>hudson.model.Run.Update:Scar</permission>
+    <permission>hudson.model.View.Configure:Scar</permission>
+    <permission>hudson.model.View.Create:Scar</permission>
+    <permission>hudson.model.View.Delete:Scar</permission>
+    <permission>hudson.model.View.Read:Scar</permission>
+    <permission>hudson.scm.SCM.Tag:Scar</permission>
+  </authorizationStrategy>
   <securityRealm class="hudson.security.SecurityRealm$None"/>
   <disableRememberMe>false</disableRememberMe>
   <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
