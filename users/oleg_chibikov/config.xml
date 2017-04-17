@@ -3,7 +3,7 @@
   <fullName>oleg_chibikov</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAwMONTWWBpcHKv0zf5jLDxKPI+8WD7GdXYawToErbCVnu0i+FZEZTDf4YocrkJo6EzECjwrHFDNR86tD7fRr1z8w==}</apiToken>
+      <apiToken>{AQAAABAAAAAwSDrykqOthW348mFRzhCVDou6abwpGDVK1muMjGcApDynEwPuWSjeaXjqEj9EK5Lx5Cz0TU1bLhAfr//Au+01+w==}</apiToken>
     </jenkins.security.ApiTokenProperty>
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.13">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
@@ -26,7 +26,7 @@
       <collapsed/>
     </hudson.model.PaneStatusProperties>
     <hudson.search.UserSearchProperty>
-      <insensitiveSearch>false</insensitiveSearch>
+      <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.20">
       <emailAddress>oleg_chibikov@epam.com</emailAddress>
