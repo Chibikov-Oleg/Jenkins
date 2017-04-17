@@ -26,7 +26,7 @@
       <syncScm>true</syncScm>
       <syncOwnership>true</syncOwnership>
       <syncAssignedLabel>true</syncAssignedLabel>
-      <exclusions class="com.google.common.collect.ImmutableList">
+      <exclusions>
         <string>ez-templates</string>
         <string>job-params</string>
         <string>disabled</string>
