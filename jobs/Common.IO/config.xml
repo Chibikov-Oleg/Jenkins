@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project>
   <actions/>
-  <description></description>
+  <description>Common libraries for various projects</description>
   <keepDependencies>true</keepDependencies>
   <properties>
     <jenkins.model.BuildDiscarderProperty>
@@ -78,13 +78,13 @@
     <hudson.plugins.msbuild.MsBuildBuilder plugin="msbuild@1.27">
       <msBuildName>MSBuild 15.0</msBuildName>
       <msBuildFile></msBuildFile>
-      <cmdLineArgs>/t:build /p:Configuration=Release /m</cmdLineArgs>
+      <cmdLineArgs>/t:build /p:Configuration=Debug /m</cmdLineArgs>
       <buildVariablesAsProperties>false</buildVariablesAsProperties>
       <continueOnBuildFailure>false</continueOnBuildFailure>
       <unstableIfWarnings>false</unstableIfWarnings>
     </hudson.plugins.msbuild.MsBuildBuilder>
     <hudson.tasks.BatchFile>
-      <command>nuget pack -Prop Configuration=Release -Symbols</command>
+      <command>nuget pack -Prop Configuration=Debug -Symbols</command>
     </hudson.tasks.BatchFile>
   </builders>
   <publishers>
