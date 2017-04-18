@@ -76,10 +76,10 @@
       <command>dotnet restore</command>
     </hudson.tasks.BatchFile>
     <hudson.tasks.BatchFile>
-      <command>dotnet build -c Release</command>
+      <command>dotnet build -c Debug</command>
     </hudson.tasks.BatchFile>
     <hudson.tasks.BatchFile>
-      <command>dotnet pack -c Release --include-symbols</command>
+      <command>dotnet pack -c Debug --include-symbols</command>
     </hudson.tasks.BatchFile>
   </builders>
   <publishers>
