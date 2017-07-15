@@ -17,10 +17,10 @@
     <permission>hudson.model.Computer.Create:Scar</permission>
     <permission>hudson.model.Computer.Delete:Scar</permission>
     <permission>hudson.model.Computer.Disconnect:Scar</permission>
-    <permission>hudson.model.Hudson.Administer:Scar</permission>
     <permission>hudson.model.Hudson.Administer:anonymous</permission>
-    <permission>hudson.model.Hudson.Read:Scar</permission>
+    <permission>hudson.model.Hudson.Administer:Scar</permission>
     <permission>hudson.model.Hudson.Read:anonymous</permission>
+    <permission>hudson.model.Hudson.Read:Scar</permission>
     <permission>hudson.model.Item.Build:Scar</permission>
     <permission>hudson.model.Item.Cancel:Scar</permission>
     <permission>hudson.model.Item.Configure:Scar</permission>
