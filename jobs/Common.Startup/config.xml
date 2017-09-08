@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project>
   <actions/>
-  <description>Common libraries for various projects</description>
+  <description></description>
   <keepDependencies>true</keepDependencies>
   <properties>
     <jenkins.model.BuildDiscarderProperty>
@@ -26,7 +26,7 @@
       <syncScm>true</syncScm>
       <syncOwnership>true</syncOwnership>
       <syncAssignedLabel>true</syncAssignedLabel>
-      <exclusions class="com.google.common.collect.ImmutableList">
+      <exclusions>
         <string>ez-templates</string>
         <string>job-params</string>
         <string>disabled</string>
